@@ -1,7 +1,10 @@
-## Button 按钮 
-
 <demo-model url="/pages/componentsA/button/button"></demo-model>
-
+::: warning 来源
+下方栗子代码[源于uview-ui button组件](https://www.uviewui.com/components/button.html)<br/>
+下方栗子代码[源于uview-ui button组件](https://www.uviewui.com/components/button.html)<br/>
+下方栗子代码[源于uview-ui button组件](https://www.uviewui.com/components/button.html)<br/>
+↓↓↓↓↓↓↓↓
+:::
 
 该组件内部实现以uni-app`button`组件为基础，进行二次封装，主要区别在于：
 - 按钮`type`值有更多的主题颜色
@@ -13,22 +16,6 @@
    [uni-app方button组件](https://uniapp.dcloud.io/component/button)
 2. 由于微信小程序的限制，在微信小程序中设置了`form-type`的`u-button`无法触发`form`组件的`submit`事件(H5和APP正常)，详见微信小程序文档[Bug & Tip部分](https://developers.weixin.qq.com/miniprogram/dev/component/button.html)
    :::
-
-### 平台差异说明
-### 平台差异说明
-### 平台差异说明
-### 平台差异说明
-### 平台差异说明
-### 平台差异说明
-### 平台差异说明
-### 平台差异说明
-### 平台差异说明
-### 平台差异说明
-### 平台差异说明
-### 平台差异说明
-### 平台差异说明
-### 平台差异说明
-### 平台差异说明
 
 |App（vue）|App（nvue）|H5|小程序|
 |:-:|:-:|:-:|:-:|

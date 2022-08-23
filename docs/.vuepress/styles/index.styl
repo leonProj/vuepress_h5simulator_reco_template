@@ -9,13 +9,14 @@
 .content__default:not(.custom) {
   max-width: none !important;
   margin: 0 auto;
-  padding: initial !important;
+  padding initial !important;
+  padding-right: 10px !important;
 }
 
 .page .page-title {
   max-width: none !important;
   margin: 0 auto;
-  padding: initial !important;
+  padding: 1rem 0 !important;
 }
 
 main {
@@ -23,10 +24,14 @@ main {
 }
 .page {
   padding-left: 10px;
+
 }
 
 /* h5模拟器样式 */
 .for-simulator-padding{
+  .content__default:not(.custom) {
+    padding-right: initial !important;
+  }
   .page {
     padding-right: 320px !important;
     .side-bar {

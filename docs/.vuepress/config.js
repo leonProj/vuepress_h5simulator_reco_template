@@ -1,5 +1,5 @@
 module.exports = {
-    base:'/vuepress_test/',
+    base:'/vuepress_h5simulator_reco_template/',
     title: 'Hello VuePress',
     description: 'Just playing around',
     theme: 'reco',
@@ -9,46 +9,29 @@ module.exports = {
         lastUpdated: '最后更新时间',
         smoothScroll: true,
         nav: [
-            {text: '指南', link:  '/pages/guide/'},
-            {text: 'foo', link: '/pages/foo/'},
+            {text: '指南', link:  '/pages/guide/start'},
+            {text: 'components', link: '/pages/components/button'},
             {text: 'bar', link: '/pages/bar/'},
             {
-                text: '组1',
-                ariaLabel: 'Language Menu',
+                text: '相关链接',
                 items: [
-                    {text: 'Chinese', link: '/language/chinese/'},
-                    {text: 'Japanese', link: '/language/japanese/'}
+                    {text: 'uview组件库', link: 'https://www.uviewui.com/'},
+                    {text: 'vuepress主题reco', link: 'https://vuepress-theme-reco.recoluan.com/'},
+                    {text: 'vuepress官方文档', link: 'https://v1.vuepress.vuejs.org/zh/'}
                 ]
             },
-            {
-                text: '组2',
-                items: [
-                    {
-                        text: 'Group1', items: [
-                            {text: 'Chinese', link: '/language/chinese/'},
-                            {text: 'Japanese', link: '/language/japanese/'}
-                        ]
-                    },
-                    {
-                        text: 'Group2', items: [
-                            {text: 'Chinese', link: '/language/chinese/'},
-                            {text: 'Japanese', link: '/language/japanese/'}
-                        ]
-                    }
-                ]
-            }
+            { text: 'github', link: 'https://github.com/leonProj/vuepress_h5simulator_reco_template', icon: 'reco-github' },
+            { text: 'gitee', link: 'https://gitee.com/tttleon/vuepress_h5simulator_reco_template', icon: 'reco-mayun' }
+
         ],
         sidebar: {
             '/pages/guide/': [
-                '',
-                'one',
-                'two'
+                'start',
+                'simulator'
             ],
 
-            '/pages/foo/': [
-                '',
-                'one',
-                'two'
+            '/pages/components/': [
+                'button'
             ],
 
             '/pages/bar/': [
@@ -65,7 +48,7 @@ module.exports = {
         subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
         /*自定义的配置*/
         simulatorUrl: {
-            '/pages/guide/one':true,
+            '/pages/components/button':true,
         }
     }
 }
