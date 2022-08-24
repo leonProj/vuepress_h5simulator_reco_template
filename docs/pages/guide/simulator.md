@@ -2,8 +2,15 @@
 title: h5模拟器使用说明
 ---
 ## 如何使用
-
-1. 在`xx.md`markdown文件中使用h5模拟器组件,引用位置无所谓，因为是fix定位
+1. 修改模拟器组件`docs/.vuepress/components/demoModel.vue`中的baseUrl，换成你自己的地址
+```vue
+ data() {
+    return {
+      baseUrl: 'xxx'
+    }
+ },
+```
+2. 在`xx.md`markdown文件中使用h5模拟器组件,引用位置无所谓，因为是fix定位.url传你自己的实际地址。iframe地址就是`baseUrl+url`
 
 ```markdown
 <demo-model url="/pages/componentsA/button/button"></demo-model>
