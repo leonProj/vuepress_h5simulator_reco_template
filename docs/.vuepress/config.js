@@ -1,17 +1,17 @@
 module.exports = {
     base:'/vuepress_h5simulator_reco_template/',
-    title: 'Hello VuePress',
-    description: 'Just playing around',
+    title: 'uniapp文档模板',
+    description: '一个简单的带h5模拟器组件的空vuepress文档模板',
     theme: 'reco',
     themeConfig: {
         /* vuepress默认主题配置 */
-        logo: '/logo.png',
+        plugins: ['@vuepress/last-updated'],
         lastUpdated: '最后更新时间',
+        logo: '/logo.png',
         smoothScroll: true,
         nav: [
             {text: '指南', link:  '/pages/guide/start'},
             {text: 'components', link: '/pages/components/button'},
-            {text: 'bar', link: '/pages/bar/'},
             {
                 text: '相关链接',
                 items: [
@@ -31,14 +31,9 @@ module.exports = {
             ],
 
             '/pages/components/': [
-                'button'
+                'button',
+                'noSim'
             ],
-
-            '/pages/bar/': [
-                '',
-                'one',
-                'two'
-            ]
         },
         /* reco配置  */
         modePicker: true,

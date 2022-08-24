@@ -1,8 +1,9 @@
 // 隐藏reco github的地址
-.reco-theme{
+.reco-theme {
   display: none;
 }
-.reco-theme + a{
+
+.reco-theme + a {
   display: none;
 }
 
@@ -22,18 +23,27 @@
 main {
   transform none !important;
 }
+
 .page {
   padding-left: 10px;
 
 }
+@media (max-width: 1200px) {
+  .side-bar {
+    display none;
+  }
+}
+
 
 /* h5模拟器样式 */
-.for-simulator-padding{
+.for-simulator-padding {
   .content__default:not(.custom) {
     padding-right: initial !important;
   }
+
   .page {
     padding-right: 320px !important;
+
     .side-bar {
       position: fixed;
       top: 4rem;
@@ -44,8 +54,7 @@ main {
   }
   @media (max-width: 1200px) {
     .page {
-      padding-right 10px !important;
+      padding-right: 10px !important;
     }
   }
-
 }

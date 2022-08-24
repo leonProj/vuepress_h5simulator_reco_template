@@ -1,7 +1,6 @@
 ---
-title: 使用h5模拟器
+title: 不使用h5模拟器
 ---
-<demo-model url="/pages/componentsA/button/button"></demo-model>
 ::: warning 来源
 下方栗子代码[源于uview-ui button组件](https://www.uviewui.com/components/button.html)<br/>
 下方栗子代码[源于uview-ui button组件](https://www.uviewui.com/components/button.html)<br/>
