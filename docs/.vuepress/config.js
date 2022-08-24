@@ -20,7 +20,7 @@ module.exports = {
                 ]
             },
             { text: 'github', link: 'https://github.com/leonProj/vuepress_h5simulator_reco_template', icon: 'reco-github' },
-            { text: 'gitee', link: 'https://gitee.com/tttleon/vuepress_h5simulator_reco_template', icon: 'reco-mayun' }
+            { text: 'gitee', link: 'https://gitee.com/leonProj/vuepress_h5simulator_reco_template', icon: 'reco-mayun' }
 
         ],
         sidebar: {
