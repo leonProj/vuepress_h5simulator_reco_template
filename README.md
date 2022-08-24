@@ -1,7 +1,4 @@
----
-title: 快速开始
-date: '2022-8-23'
----
+
 ### 注意
 默认你已经阅读过vuepress的官方文档。如果您还没有阅读过，请先阅读[vuepress官方文档](https://v1.vuepress.vuejs.org/zh/)。
 
