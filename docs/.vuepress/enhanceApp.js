@@ -1,8 +1,7 @@
-import Vue from 'vue';
-
 // 使用异步函数也是可以的
 export default ({
     Vue, // VuePress 正在使用的 Vue 构造函数
+    router
 }) => {
     Vue.mixin({
         mounted() {
@@ -26,4 +25,15 @@ export default ({
             }
         }
     })
+    // 锚点跳转
+    router.onReady(() => {
+        const { hash } = document.location;
+        setTimeout(() => {
+            if (hash.length > 1) {
+                const id = decodeURIComponent(hash);
+                const el = document.querySelector(`.reco-side-${decodeURIComponent(id).substring(1)}`);
+                el.click();
+            }
+        }, 500);
+    });
 }

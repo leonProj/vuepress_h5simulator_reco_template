@@ -8,7 +8,6 @@ module.exports = {
         plugins: ['@vuepress/last-updated'],
         lastUpdated: '最后更新时间',
         logo: '/logo.png',
-        smoothScroll: true,
         nav: [
             {text: '指南', link:  '/pages/guide/start'},
             {text: 'components', link: '/pages/components/button'},
