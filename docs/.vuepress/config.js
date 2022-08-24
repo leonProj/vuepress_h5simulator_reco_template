@@ -1,6 +1,6 @@
 module.exports = {
     base:'/vuepress_h5simulator_reco_template/',
-    title: 'uniapp文档模板',
+    title: 'uniapp文档模板，移动端组件文档模板',
     description: '一个简单的带h5模拟器组件的空vuepress文档模板',
     theme: 'reco',
     themeConfig: {
