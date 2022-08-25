@@ -36,8 +36,8 @@ module.exports = {
 注意 不需要使用时 如果之前页面使用过h5模拟器组件， 请记得删除simulatorUrl中配置的路径,或者设置为false,否则右边距会变大。
 :::
 ## 举个栗子
-[使用组件模板](/pages/components/button)
-[不使用组件模板](/pages/components/noSim)
+<a :href="$withBase('/pages/components/button')" alt="foo">使用组件模板</a><br/>
+<a :href="$withBase('/pages/components/noSim')" alt="foo">不使用组件模板</a>
 ## 简单解释
 ### 本质
 demo-model本质上是一个vue组件，通过iframe+样式模拟出手机h5的效果。
